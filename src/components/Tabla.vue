@@ -22,7 +22,8 @@
         <v-app-bar-title>Tabla</v-app-bar-title>
       </v-app-bar>
       <v-main>
-        <v-table>
+        <v-container>
+        <v-table height="500" width="700">
           <thead>
             <tr>
               <th class="text-left">
@@ -44,6 +45,7 @@
             </tr>
           </tbody>
         </v-table>
+      </v-container>
       </v-main>
     </v-app>
   </template>
